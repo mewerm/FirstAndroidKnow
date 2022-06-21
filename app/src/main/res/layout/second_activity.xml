@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5866"
+    android:orientation="vertical"
+    android:paddingHorizontal="35dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="Введите свои данные"
+        android:textColor="@color/myColor"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/edit_text1_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="11"
+        android:hint="Введите год рождения"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/edit_text4_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="Введите номер телефона"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/edit_text2_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="Введите должность"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/edit_text3_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:ems="11"
+        android:hint="Введите имя"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/edit_text5_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="11"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/edit_text6_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="11"
+        android:hint="Введите email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/myColor"
+        android:textStyle="bold"
+        android:text="Ок. А пока мы сохраняем ваши данные для дальнейшего свободного использования, предлагаем запомнить этот прекрасный день календаря:"
+        android:textSize="11sp" />
+
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp" />
+
+
+</LinearLayout>
