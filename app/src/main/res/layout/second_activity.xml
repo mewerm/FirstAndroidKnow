@@ -14,15 +14,25 @@
         android:gravity="center_horizontal"
         android:text="Введите свои данные"
         android:textColor="@color/myColor"
-        android:textSize="13sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/edit_text3_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:ems="11"
+        android:hint="Введите имя"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="13sp" />
 
     <EditText
         android:id="@+id/edit_text1_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
         android:ems="11"
         android:hint="Введите год рождения"
         android:inputType="number"
@@ -49,14 +59,14 @@
         android:minHeight="48dp"
         android:textSize="13sp" />
 
+
     <EditText
-        android:id="@+id/edit_text3_second"
+        android:id="@+id/edit_text6_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
         android:ems="11"
-        android:hint="Введите имя"
-        android:inputType="textPersonName"
+        android:hint="Введите email"
+        android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:textSize="13sp" />
 
@@ -64,21 +74,9 @@
         android:id="@+id/edit_text5_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
         android:ems="11"
-        android:hint="Введите пароль"
+        android:hint="Введите пароль от email"
         android:inputType="textPassword"
-        android:minHeight="48dp"
-        android:textSize="13sp" />
-
-    <EditText
-        android:id="@+id/edit_text6_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
-        android:ems="11"
-        android:hint="Введите email"
-        android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:textSize="13sp" />
 
@@ -88,16 +86,16 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
-        android:textColor="@color/myColor"
-        android:textStyle="bold"
         android:text="Ок. А пока мы сохраняем ваши данные для дальнейшего свободного использования, предлагаем запомнить этот прекрасный день календаря:"
-        android:textSize="11sp" />
+        android:textColor="@color/myColor"
+        android:textSize="11sp"
+        android:textStyle="bold" />
 
 
     <CalendarView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp" />
+        android:layout_marginTop="2dp" />
 
 
 </LinearLayout>

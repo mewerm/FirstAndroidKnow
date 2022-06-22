@@ -57,12 +57,12 @@
         android:textSize="12sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:backgroundTint="@color/myColor"
-        android:text="Сохранить"
+        android:text="Продолжить"
         android:textSize="14sp" />
 
     <ToggleButton
@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:text="Даю согласие на использование своих паролей и аудиозаписей"
+        android:text="Даю согласие на использование своих персональных данных и аудиозаписей"
         android:textColor="@color/myColor"
         android:textSize="7sp" />
 
